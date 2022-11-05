@@ -1,0 +1,658 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаОбратиВалюти" id="34">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОбратиВалюти</CommandName>
+				<ExtendedTooltip name="ФормаОбратиВалютиРасширеннаяПодсказка" id="35"/>
+			</Button>
+			<Button name="ФормаОтриматиКурсиВалют" id="36">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОтриматиКурсиВалют</CommandName>
+				<ExtendedTooltip name="ФормаОтриматиКурсиВалютРасширеннаяПодсказка" id="37"/>
+			</Button>
+			<Button name="ФормаЗаписатиКурсиВалют" id="38">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗаписатиКурсиВалют</CommandName>
+				<ExtendedTooltip name="ФормаЗаписатиКурсиВалютРасширеннаяПодсказка" id="39"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Сторінки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сторінки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Сторінки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сторінки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Сторінки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="СторінкиРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="СторінкаОбробки" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сторінка обробки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Сторінка обробки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сторінка обробки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Сторінка обробки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СторінкаОбробкиРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<InputField name="Період" id="9">
+							<DataPath>Період</DataPath>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ПеріодКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="ПеріодРасширеннаяПодсказка" id="11"/>
+						</InputField>
+						<Pages name="СторінкиДій" id="5">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сторінки дій</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>uk</v8:lang>
+									<v8:content>Сторінки дій</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сторінки дій</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>uk</v8:lang>
+									<v8:content>Сторінки дій</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PagesRepresentation>None</PagesRepresentation>
+							<ExtendedTooltip name="СторінкиДійРасширеннаяПодсказка" id="6"/>
+							<ChildItems>
+								<Page name="СторінкаВиборуВалют" id="7">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сторінка вибору валют</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>uk</v8:lang>
+											<v8:content>Сторінка вибору валют</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сторінка вибору валют</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>uk</v8:lang>
+											<v8:content>Сторінка вибору валют</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СторінкаВиборуВалютРасширеннаяПодсказка" id="8"/>
+									<ChildItems>
+										<Table name="Валюти" id="40">
+											<Representation>List</Representation>
+											<ChangeRowSet>false</ChangeRowSet>
+											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
+											<DataPath>Валюти</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ВалютиКонтекстноеМеню" id="41"/>
+											<AutoCommandBar name="ВалютиКоманднаяПанель" id="42">
+												<ChildItems>
+													<Button name="ВалютиОновитиСписокВалют" id="68">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ОновитиСписокВалют</CommandName>
+														<Picture>
+															<xr:Ref>StdPicture.Refresh</xr:Ref>
+															<xr:LoadTransparent>true</xr:LoadTransparent>
+														</Picture>
+														<ExtendedTooltip name="ВалютиОновитиСписокВалютРасширеннаяПодсказка" id="69"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="ВалютиРасширеннаяПодсказка" id="43"/>
+											<SearchStringAddition name="ВалютиСтрокаПоиска" id="44">
+												<AdditionSource>
+													<Item>Валюти</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ВалютиСтрокаПоискаКонтекстноеМеню" id="45"/>
+												<ExtendedTooltip name="ВалютиСтрокаПоискаРасширеннаяПодсказка" id="46"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ВалютиСостояниеПросмотра" id="47">
+												<AdditionSource>
+													<Item>Валюти</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ВалютиСостояниеПросмотраКонтекстноеМеню" id="48"/>
+												<ExtendedTooltip name="ВалютиСостояниеПросмотраРасширеннаяПодсказка" id="49"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ВалютиУправлениеПоиском" id="50">
+												<AdditionSource>
+													<Item>Валюти</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ВалютиУправлениеПоискомКонтекстноеМеню" id="51"/>
+												<ExtendedTooltip name="ВалютиУправлениеПоискомРасширеннаяПодсказка" id="52"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<CheckBoxField name="ВалютиВибір" id="53">
+													<DataPath>Валюти.Вибір</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ВалютиВибірКонтекстноеМеню" id="54"/>
+													<ExtendedTooltip name="ВалютиВибірРасширеннаяПодсказка" id="55"/>
+												</CheckBoxField>
+												<InputField name="ВалютиНазва" id="59">
+													<DataPath>Валюти.Назва</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ВалютиНазваКонтекстноеМеню" id="60"/>
+													<ExtendedTooltip name="ВалютиНазваРасширеннаяПодсказка" id="61"/>
+												</InputField>
+												<InputField name="ВалютиКод" id="62">
+													<DataPath>Валюти.Код</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ВалютиКодКонтекстноеМеню" id="63"/>
+													<ExtendedTooltip name="ВалютиКодРасширеннаяПодсказка" id="64"/>
+												</InputField>
+												<InputField name="ВалютиЛітернийКод" id="65">
+													<DataPath>Валюти.ЛітернийКод</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ВалютиЛітернийКодКонтекстноеМеню" id="66"/>
+													<ExtendedTooltip name="ВалютиЛітернийКодРасширеннаяПодсказка" id="67"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+								<Page name="СторінкаЗапитуКурсівВалют" id="70">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сторінка запиту курсів валют</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>uk</v8:lang>
+											<v8:content>Сторінка запиту курсів валют</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сторінка запиту курсів валют</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>uk</v8:lang>
+											<v8:content>Сторінка запиту курсів валют</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СторінкаЗапитуКурсівВалютРасширеннаяПодсказка" id="71"/>
+									<ChildItems>
+										<Table name="КурсиВалют" id="72">
+											<ChangeRowSet>false</ChangeRowSet>
+											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
+											<DataPath>Объект.КурсиВалют</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="КурсиВалютКонтекстноеМеню" id="73"/>
+											<AutoCommandBar name="КурсиВалютКоманднаяПанель" id="74">
+												<ChildItems>
+													<Button name="КурсиВалютОбратиВсіКурси" id="106">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ОбратиВсіКурси</CommandName>
+														<ExtendedTooltip name="КурсиВалютОбратиВсіКурсиРасширеннаяПодсказка" id="107"/>
+													</Button>
+													<Button name="КурсиВалютОбратиЖодногоКурсу" id="108">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ОбратиЖодногоКурсу</CommandName>
+														<ExtendedTooltip name="КурсиВалютОбратиЖодногоКурсуРасширеннаяПодсказка" id="109"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="КурсиВалютРасширеннаяПодсказка" id="75"/>
+											<SearchStringAddition name="КурсиВалютСтрокаПоиска" id="76">
+												<AdditionSource>
+													<Item>КурсиВалют</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="КурсиВалютСтрокаПоискаКонтекстноеМеню" id="77"/>
+												<ExtendedTooltip name="КурсиВалютСтрокаПоискаРасширеннаяПодсказка" id="78"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="КурсиВалютСостояниеПросмотра" id="79">
+												<AdditionSource>
+													<Item>КурсиВалют</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="КурсиВалютСостояниеПросмотраКонтекстноеМеню" id="80"/>
+												<ExtendedTooltip name="КурсиВалютСостояниеПросмотраРасширеннаяПодсказка" id="81"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="КурсиВалютУправлениеПоиском" id="82">
+												<AdditionSource>
+													<Item>КурсиВалют</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="КурсиВалютУправлениеПоискомКонтекстноеМеню" id="83"/>
+												<ExtendedTooltip name="КурсиВалютУправлениеПоискомРасширеннаяПодсказка" id="84"/>
+											</SearchControlAddition>
+											<Events>
+												<Event name="Selection">КурсиВалютВыбор</Event>
+											</Events>
+											<ChildItems>
+												<CheckBoxField name="КурсиВалютВибір" id="103">
+													<DataPath>Объект.КурсиВалют.Вибір</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="КурсиВалютВибірКонтекстноеМеню" id="104"/>
+													<ExtendedTooltip name="КурсиВалютВибірРасширеннаяПодсказка" id="105"/>
+												</CheckBoxField>
+												<InputField name="КурсиВалютДатаКурсу" id="88">
+													<DataPath>Объект.КурсиВалют.ДатаКурсу</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="КурсиВалютДатаКурсуКонтекстноеМеню" id="89"/>
+													<ExtendedTooltip name="КурсиВалютДатаКурсуРасширеннаяПодсказка" id="90"/>
+												</InputField>
+												<InputField name="КурсиВалютВалюта" id="91">
+													<DataPath>Объект.КурсиВалют.Валюта</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="КурсиВалютВалютаКонтекстноеМеню" id="92"/>
+													<ExtendedTooltip name="КурсиВалютВалютаРасширеннаяПодсказка" id="93"/>
+												</InputField>
+												<InputField name="КурсиВалютКурсНБУ" id="94">
+													<DataPath>Объект.КурсиВалют.КурсНБУ</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="КурсиВалютКурсНБУКонтекстноеМеню" id="95"/>
+													<ExtendedTooltip name="КурсиВалютКурсНБУРасширеннаяПодсказка" id="96"/>
+												</InputField>
+												<InputField name="КурсиВалютКратність" id="97">
+													<DataPath>Объект.КурсиВалют.Кратність</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="КурсиВалютКратністьКонтекстноеМеню" id="98"/>
+													<ExtendedTooltip name="КурсиВалютКратністьРасширеннаяПодсказка" id="99"/>
+													<Events>
+														<Event name="OnChange">КурсиВалютКратністьПриИзменении</Event>
+													</Events>
+												</InputField>
+												<InputField name="КурсиВалютКурс" id="100">
+													<DataPath>Объект.КурсиВалют.Курс</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="КурсиВалютКурсКонтекстноеМеню" id="101"/>
+													<ExtendedTooltip name="КурсиВалютКурсРасширеннаяПодсказка" id="102"/>
+													<Events>
+														<Event name="OnChange">КурсиВалютКурсПриИзменении</Event>
+													</Events>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ЗагрузкаКурсовВалютНБУ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Період" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Період</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Період</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:StandardPeriod</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Валюти" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Валюти</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Валюти</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Вибір" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вибір</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Вибір</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Валюта" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Валюта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Валюта</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Назва" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Валюта</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Валюта</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Код" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Код</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЛітернийКод" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Літерний код</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Літерний код</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ВерсіяОбробки" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Версія обробки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НазваОбробки" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Назва обробки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ІмяОбробки" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Імя обробки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОбратиВалюти" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обрати валюти</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Обрати валюти</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обрати валюти</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Обрати валюти</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбратиВалюти</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОтриматиКурсиВалют" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отримати курси валют</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Отримати курси валют</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отримати курси валют</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Отримати курси валют</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтриматиКурсиВалют</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ЗаписатиКурсиВалют" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записати курси валют</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Записати курси валют</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записати курси валют</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Записати курси валют</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаписатиКурсиВалют</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОновитиСписокВалют" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оновити список валют</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Оновити список валют</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оновити список валют</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Оновити список валют</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОновитиСписокВалют</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОбратиВсіКурси" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обрати всі курси</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Обрати всі курси</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обрати всі курси</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбратиВсіКурси</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОбратиЖодногоКурсу" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Обрати жодного курсу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Обрати жодного курсу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбратиЖодногоКурсу</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>

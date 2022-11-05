@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnSaveDataInSettingsAtServer">ПриСохраненииДанныхВНастройкахНаСервере</Event>
+		<Event name="OnLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="38">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="39"/>
+			<ChildItems>
+				<UsualGroup name="Группа2" id="40">
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="41"/>
+					<ChildItems>
+						<InputField name="ПутьКФайлуОбработки" id="1">
+							<DataPath>Объект.ПутьКФайлуОбработки</DataPath>
+							<ContextMenu name="ПутьКФайлуОбработкиКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="ПутьКФайлуОбработкиРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="ИмяОбъекта" id="6">
+							<DataPath>Объект.ИмяОбъекта</DataPath>
+							<ContextMenu name="ИмяОбъектаКонтекстноеМеню" id="7"/>
+							<ExtendedTooltip name="ИмяОбъектаРасширеннаяПодсказка" id="8"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа3" id="42">
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<InputField name="ИмяПользователя" id="44">
+							<DataPath>Объект.ИмяПользователя</DataPath>
+							<ContextMenu name="ИмяПользователяКонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="ИмяПользователяРасширеннаяПодсказка" id="46"/>
+						</InputField>
+						<UsualGroup name="Группа4" id="60">
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="61"/>
+							<ChildItems>
+								<InputField name="ПарольПользователя" id="47">
+									<DataPath>Объект.ПарольПользователя</DataPath>
+									<ContextMenu name="ПарольПользователяКонтекстноеМеню" id="48"/>
+									<ExtendedTooltip name="ПарольПользователяРасширеннаяПодсказка" id="49"/>
+								</InputField>
+								<CheckBoxField name="ПоказатьПароль" id="57">
+									<DataPath>ПоказатьПароль</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПоказатьПарольКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="ПоказатьПарольРасширеннаяПодсказка" id="59"/>
+									<Events>
+										<Event name="OnChange">ПоказатьПарольПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ИнформационныеБазы" id="9">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ИнформационныеБазы</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ИнформационныеБазыКонтекстноеМеню" id="10"/>
+			<AutoCommandBar name="ИнформационныеБазыКоманднаяПанель" id="11">
+				<ChildItems>
+					<Button name="ИнформационныеБазыПроверитьСоединение" id="31">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПроверитьСоединение</CommandName>
+						<ExtendedTooltip name="ИнформационныеБазыПроверитьСоединениеРасширеннаяПодсказка" id="32"/>
+					</Button>
+					<Button name="ИнформационныеБазыОбновитьВыбраннуюБазу" id="33">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОбновитьОбработку</CommandName>
+						<BackColor>style:NavigationColor</BackColor>
+						<ExtendedTooltip name="ИнформационныеБазыОбновитьВыбраннуюБазуРасширеннаяПодсказка" id="34"/>
+					</Button>
+					<Button name="ИнформационныеБазыСохранитьТаблицуВФайл" id="53">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.СохранитьТаблицуВФайл</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ИнформационныеБазыСохранитьТаблицуВФайлРасширеннаяПодсказка" id="54"/>
+					</Button>
+					<Button name="ИнформационныеБазыЗагрузитьТаблицуИзФайла" id="55">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ЗагрузитьТаблицуИзФайла</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ИнформационныеБазыЗагрузитьТаблицуИзФайлаРасширеннаяПодсказка" id="56"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ИнформационныеБазыРасширеннаяПодсказка" id="12"/>
+			<SearchStringAddition name="ИнформационныеБазыСтрокаПоиска" id="13">
+				<AdditionSource>
+					<Item>ИнформационныеБазы</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ИнформационныеБазыСтрокаПоискаКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="ИнформационныеБазыСтрокаПоискаРасширеннаяПодсказка" id="15"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ИнформационныеБазыСостояниеПросмотра" id="16">
+				<AdditionSource>
+					<Item>ИнформационныеБазы</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ИнформационныеБазыСостояниеПросмотраКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="ИнформационныеБазыСостояниеПросмотраРасширеннаяПодсказка" id="18"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ИнформационныеБазыУправлениеПоиском" id="19">
+				<AdditionSource>
+					<Item>ИнформационныеБазы</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ИнформационныеБазыУправлениеПоискомКонтекстноеМеню" id="20"/>
+				<ExtendedTooltip name="ИнформационныеБазыУправлениеПоискомРасширеннаяПодсказка" id="21"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnChange">ИнформационныеБазыПриИзменении</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="ИнформационныеБазыНомерСтроки" id="22">
+					<DataPath>Объект.ИнформационныеБазы.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИнформационныеБазыНомерСтрокиКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ИнформационныеБазыНомерСтрокиРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<InputField name="ИнформационныеБазыНаименованиеИБ" id="35">
+					<DataPath>Объект.ИнформационныеБазы.НаименованиеИБ</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИнформационныеБазыНаименованиеИБКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ИнформационныеБазыНаименованиеИБРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ИнформационныеБазыСтрокаСоединения" id="25">
+					<DataPath>Объект.ИнформационныеБазы.СтрокаСоединения</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИнформационныеБазыСтрокаСоединенияКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ИнформационныеБазыСтрокаСоединенияРасширеннаяПодсказка" id="27"/>
+				</InputField>
+				<InputField name="ИнформационныеБазыРезультат" id="50">
+					<DataPath>Объект.ИнформационныеБазы.Результат</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИнформационныеБазыРезультатКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ИнформационныеБазыРезультатРасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<CheckBoxField name="ИнформационныеБазыУспех" id="28">
+					<DataPath>Объект.ИнформационныеБазы.Успех</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ИнформационныеБазыУспехКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ИнформационныеБазыУспехРасширеннаяПодсказка" id="30"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПомощникОбновленияДополнительныхОтчетовИОбработок</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Save>
+				<Field>Объект.ИмяОбъекта</Field>
+				<Field>Объект.ИмяПользователя</Field>
+				<Field>Объект.ПарольПользователя</Field>
+				<Field>Объект.ПутьКФайлуОбработки</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ДляВызоваОбработчикаСохраненияНастроек" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Для вызова обработчика сохранения настроек</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<Save>
+				<Field>ДляВызоваОбработчикаСохраненияНастроек</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="АдресДвоичныхДанныхФайлаВХранилище" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес двоичных данных файла в хранилище</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоказатьПароль" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать пароль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПроверитьСоединение" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить соединение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить соединение для выделенных строк</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьСоединение</Action>
+		</Command>
+		<Command name="ОбновитьОбработку" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить обработку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить обработку для выделенных строк</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьОбработку</Action>
+		</Command>
+		<Command name="СохранитьТаблицуВФайл" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить таблицу в файл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить таблицу в файл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьТаблицуВФайл</Action>
+		</Command>
+		<Command name="ЗагрузитьТаблицуИзФайла" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить таблицу из файла</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить таблицу из файла</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьТаблицуИзФайла</Action>
+		</Command>
+	</Commands>
+</Form>

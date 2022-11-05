@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаНачальныйОстаток</dataPath>
+			<field>СуммаНачальныйОстаток</field>
+			<role>
+				<dcscom:balance>true</dcscom:balance>
+				<dcscom:balanceGroupName>Сумма</dcscom:balanceGroupName>
+				<dcscom:balanceType>OpeningBalance</dcscom:balanceType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Счет</dataPath>
+			<field>Счет</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаОборотДт</dataPath>
+			<field>СуммаОборотДт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто1</dataPath>
+			<field>Субконто1</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаКонечныйОстаток</dataPath>
+			<field>СуммаКонечныйОстаток</field>
+			<role>
+				<dcscom:balance>true</dcscom:balance>
+				<dcscom:balanceGroupName>Сумма</dcscom:balanceGroupName>
+				<dcscom:balanceType>ClosingBalance</dcscom:balanceType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Валюта</dataPath>
+			<field>Валюта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаОборотКт</dataPath>
+			<field>СуммаОборотКт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто2</dataPath>
+			<field>Субконто2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Субконто3</dataPath>
+			<field>Субконто3</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Группа</dataPath>
+			<field>Группа</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСубконто1</dataPath>
+			<field>КорСубконто1</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСубконто2</dataPath>
+			<field>КорСубконто2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСубконто3</dataPath>
+			<field>КорСубконто3</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВалютаКор</dataPath>
+			<field>ВалютаКор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодразделениеКор</dataPath>
+			<field>ПодразделениеКор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорСчет</dataPath>
+			<field>КорСчет</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Контрагенты.Ссылка КАК Ссылка
+ПОМЕСТИТЬ ВТКонтрагентыМатериалы
+ИЗ
+	Справочник.Контрагенты КАК Контрагенты
+ГДЕ
+	(Контрагенты.Родитель.Наименование ПОДОБНО "%МАТЕРИАЛЫ%"
+			ИЛИ Контрагенты.Родитель.Родитель.Наименование ПОДОБНО "%МАТЕРИАЛЫ%"
+			ИЛИ Контрагенты.Родитель.Родитель.Родитель.Наименование ПОДОБНО "%МАТЕРИАЛЫ%"
+			ИЛИ Контрагенты.Родитель.Родитель.Родитель.Родитель.Наименование ПОДОБНО "%МАТЕРИАЛЫ%"
+			ИЛИ Контрагенты.Родитель.Родитель.Родитель.Родитель.Родитель.Наименование ПОДОБНО "%МАТЕРИАЛЫ%")
+	И НЕ Контрагенты.ЭтоГруппа
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Контрагенты.Ссылка КАК Ссылка
+ПОМЕСТИТЬ ВТКонтрагентыПоставщики
+ИЗ
+	Справочник.Контрагенты КАК Контрагенты
+ГДЕ
+	(Контрагенты.Родитель.Наименование ПОДОБНО "%ПОСТАВЩИК%"
+			ИЛИ Контрагенты.Родитель.Родитель.Наименование ПОДОБНО "%ПОСТАВЩИК%"
+			ИЛИ Контрагенты.Родитель.Родитель.Родитель.Наименование ПОДОБНО "%ПОСТАВЩИК%"
+			ИЛИ Контрагенты.Родитель.Родитель.Родитель.Родитель.Наименование ПОДОБНО "%ПОСТАВЩИК%"
+			ИЛИ Контрагенты.Родитель.Родитель.Родитель.Родитель.Родитель.Наименование ПОДОБНО "%ПОСТАВЩИК%")
+	И НЕ Контрагенты.ЭтоГруппа
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Контрагенты.Ссылка КАК Ссылка
+ПОМЕСТИТЬ ВТКонтрагентыРеклама
+ИЗ
+	Справочник.Контрагенты КАК Контрагенты
+ГДЕ
+	(Контрагенты.Родитель.Наименование ПОДОБНО "%РЕКЛАМА%"
+			ИЛИ Контрагенты.Родитель.Родитель.Наименование ПОДОБНО "%РЕКЛАМА%"
+			ИЛИ Контрагенты.Родитель.Родитель.Родитель.Наименование ПОДОБНО "%РЕКЛАМА%"
+			ИЛИ Контрагенты.Родитель.Родитель.Родитель.Родитель.Наименование ПОДОБНО "%РЕКЛАМА%"
+			ИЛИ Контрагенты.Родитель.Родитель.Родитель.Родитель.Родитель.Наименование ПОДОБНО "%РЕКЛАМА%")
+	И НЕ Контрагенты.ЭтоГруппа
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПРЕДСТАВЛЕНИЕ(ХозрасчетныйОстаткиИОбороты.Организация) КАК Организация,
+	"МАТЕРИАЛЫ" КАК Группа,
+	ХозрасчетныйОстаткиИОбороты.Счет.Код КАК Счет,
+	ВЫРАЗИТЬ(ХозрасчетныйОстаткиИОбороты.Субконто1 КАК Справочник.Контрагенты).Наименование КАК Субконто1,
+	ХозрасчетныйОстаткиИОбороты.СуммаНачальныйОстаток КАК СуммаНачальныйОстаток,
+	ХозрасчетныйОстаткиИОбороты.СуммаКонечныйОстаток КАК СуммаКонечныйОстаток,
+	ХозрасчетныйОстаткиИОбороты.СуммаОборотДт КАК СуммаОборотДт,
+	ХозрасчетныйОстаткиИОбороты.СуммаОборотКт КАК СуммаОборотКт
+ИЗ
+	РегистрБухгалтерии.Хозрасчетный.ОстаткиИОбороты(&amp;ПериодНач {(&amp;ПериодНач)}, &amp;ПериодКон {(&amp;ПериодКон)}, Период, , Счет В ИЕРАРХИИ (ЗНАЧЕНИЕ(Плансчетов.хозрасчетный.РасчетыСПоставщикамиИПодрядчиками)), , Организация = &amp;Организация) КАК ХозрасчетныйОстаткиИОбороты
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТКонтрагентыМатериалы КАК Контрагенты
+		ПО ((ВЫРАЗИТЬ(ХозрасчетныйОстаткиИОбороты.Субконто1 КАК Справочник.Контрагенты)) = Контрагенты.Ссылка)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ПРЕДСТАВЛЕНИЕ(ХозрасчетныйОстаткиИОбороты.Организация),
+	"РЕКЛАМА",
+	ХозрасчетныйОстаткиИОбороты.Счет.Код,
+	ВЫРАЗИТЬ(ХозрасчетныйОстаткиИОбороты.Субконто1 КАК Справочник.Контрагенты).Наименование,
+	ХозрасчетныйОстаткиИОбороты.СуммаНачальныйОстаток,
+	ХозрасчетныйОстаткиИОбороты.СуммаКонечныйОстаток,
+	ХозрасчетныйОстаткиИОбороты.СуммаОборотДт,
+	ХозрасчетныйОстаткиИОбороты.СуммаОборотКт
+ИЗ
+	РегистрБухгалтерии.Хозрасчетный.ОстаткиИОбороты(&amp;ПериодНач {(&amp;ПериодНач)}, &amp;ПериодКон {(&amp;ПериодКон)}, Период, , Счет В ИЕРАРХИИ (ЗНАЧЕНИЕ(Плансчетов.хозрасчетный.РасчетыСПокупателямиИЗаказчиками)), , Организация = &amp;Организация) КАК ХозрасчетныйОстаткиИОбороты
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТКонтрагентыРеклама КАК Контрагенты
+		ПО ((ВЫРАЗИТЬ(ХозрасчетныйОстаткиИОбороты.Субконто1 КАК Справочник.Контрагенты)) = Контрагенты.Ссылка)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ПРЕДСТАВЛЕНИЕ(ХозрасчетныйОстаткиИОбороты.Организация),
+	NULL,
+	ХозрасчетныйОстаткиИОбороты.Счет.Код,
+	ВЫРАЗИТЬ(ХозрасчетныйОстаткиИОбороты.Субконто1 КАК Справочник.Контрагенты).Наименование,
+	ХозрасчетныйОстаткиИОбороты.СуммаНачальныйОстаток,
+	ХозрасчетныйОстаткиИОбороты.СуммаКонечныйОстаток,
+	ХозрасчетныйОстаткиИОбороты.СуммаОборотДт,
+	ХозрасчетныйОстаткиИОбороты.СуммаОборотКт
+ИЗ
+	РегистрБухгалтерии.Хозрасчетный.ОстаткиИОбороты(&amp;ПериодНач {(&amp;ПериодНач)}, &amp;ПериодКон {(&amp;ПериодКон)}, Период, , Счет.Код В ("62.05"), , Организация = &amp;Организация) КАК ХозрасчетныйОстаткиИОбороты
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ПРЕДСТАВЛЕНИЕ(ХозрасчетныйОбороты.Организация),
+	"ПОСТАВЩИКИ 60.01 - 62.05",
+	ВЫБОР
+		КОГДА ХозрасчетныйОбороты.Счет.Код = "60.01"
+			ТОГДА "60.01 - 62.05"
+		КОГДА ХозрасчетныйОбороты.Счет.Код = "62.05"
+			ТОГДА "62.05 - 60.01"
+		ИНАЧЕ ""
+	КОНЕЦ,
+	ВЫРАЗИТЬ(ХозрасчетныйОбороты.Субконто1 КАК Справочник.Контрагенты).Наименование,
+	0,
+	0,
+	ХозрасчетныйОбороты.СуммаОборотДт,
+	ХозрасчетныйОбороты.СуммаОборотКт
+ИЗ
+	РегистрБухгалтерии.Хозрасчетный.Обороты(&amp;ПериодНач {(&amp;ПериодНач)}, &amp;ПериодКон {(&amp;ПериодКон)}, Период, Счет.Код = "60.01", , Организация = &amp;Организация, КорСчет.Код = "62.05", ) КАК ХозрасчетныйОбороты
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТКонтрагентыПоставщики КАК Контрагенты
+		ПО ((ВЫРАЗИТЬ(ХозрасчетныйОбороты.Субконто1 КАК Справочник.Контрагенты)) = Контрагенты.Ссылка)</query>
+	</dataSet>
+	<totalField>
+		<dataPath>СуммаКонечныйОстаток</dataPath>
+		<expression>Сумма(СуммаКонечныйОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаНачальныйОстаток</dataPath>
+		<expression>Сумма(СуммаНачальныйОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаОборотДт</dataPath>
+		<expression>Сумма(СуммаОборотДт)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаОборотКт</dataPath>
+		<expression>Сумма(СуммаОборотКт)</expression>
+	</totalField>
+	<parameter>
+		<name>ПериодКон</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период кон</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПериодНач</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период нач</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Организация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.Организации.ПустаяСсылка</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Счет</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Субконто1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаНачальныйОстаток</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаОборотДт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаОборотКт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаКонечныйОстаток</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Группа</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПараметрыДанных.Организация</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Организация</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ПериодКон</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+						<v8:date>2022-07-01T00:00:00</v8:date>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ПериодНач</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+						<v8:date>2022-06-01T00:00:00</v8:date>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Организация</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">64d142b1-8080-11e9-85da-00ac7e1d7d87</dcscor:value>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

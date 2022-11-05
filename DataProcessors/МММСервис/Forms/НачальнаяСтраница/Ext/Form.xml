@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Начальная страница</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<PictureDecoration name="Декорация5" id="42">
+			<Height>1</Height>
+			<ContextMenu name="Декорация5КонтекстноеМеню" id="43"/>
+			<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="44"/>
+		</PictureDecoration>
+		<UsualGroup name="ГруппаГоризонтальная" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа горизонтальная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа горизонтальная</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаГоризонтальнаяРасширеннаяПодсказка" id="7"/>
+			<ChildItems>
+				<PictureDecoration name="Декорация4" id="39">
+					<Width>2</Width>
+					<ContextMenu name="Декорация4КонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="41"/>
+				</PictureDecoration>
+				<UsualGroup name="ГруппаКолонка1" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКолонка1РасширеннаяПодсказка" id="9"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаВажное" id="1">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа важное</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа важное</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаВажноеРасширеннаяПодсказка" id="2"/>
+						</UsualGroup>
+						<PictureDecoration name="Декорация3" id="36">
+							<Height>1</Height>
+							<ContextMenu name="Декорация3КонтекстноеМеню" id="37"/>
+							<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="38"/>
+						</PictureDecoration>
+						<LabelDecoration name="Организации" id="12">
+							<TextColor>style:FormTextColor</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Организации</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ОрганизацииКонтекстноеМеню" id="13"/>
+							<ExtendedTooltip name="ОрганизацииРасширеннаяПодсказка" id="14"/>
+							<Events>
+								<Event name="Click">ОрганизацииНажатие</Event>
+							</Events>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<PictureDecoration name="Декорация2" id="33">
+					<Width>3</Width>
+					<ContextMenu name="Декорация2КонтекстноеМеню" id="34"/>
+					<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="35"/>
+				</PictureDecoration>
+				<UsualGroup name="ГруппаКолонка2" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка2</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка2</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКолонка2РасширеннаяПодсказка" id="11"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаОтчеты" id="22">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отчеты</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа отчеты</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаОтчетыРасширеннаяПодсказка" id="23"/>
+							<ChildItems>
+								<LabelDecoration name="Затраты" id="24">
+									<TextColor>style:FormTextColor</TextColor>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Затраты</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="ЗатратыКонтекстноеМеню" id="25"/>
+									<ExtendedTooltip name="ЗатратыРасширеннаяПодсказка" id="26"/>
+									<Events>
+										<Event name="Click">ЗатратыНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="Обототы50516062" id="27">
+									<TextColor>style:FormTextColor</TextColor>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Обороты 50, 51, 60, 62</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="Обототы50516062КонтекстноеМеню" id="28"/>
+									<ExtendedTooltip name="Обототы50516062РасширеннаяПодсказка" id="29"/>
+									<Events>
+										<Event name="Click">Обототы50516062Нажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="ВНД" id="48">
+									<TextColor>style:FormTextColor</TextColor>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ВНД</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="ВНДКонтекстноеМеню" id="49"/>
+									<ExtendedTooltip name="ВНДРасширеннаяПодсказка" id="50"/>
+									<Events>
+										<Event name="Click">ОтчетВНДНажатие</Event>
+									</Events>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<PictureDecoration name="Декорация1" id="30">
+					<Width>3</Width>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="32"/>
+				</PictureDecoration>
+				<UsualGroup name="ГруппаКолонка3" id="20">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка3</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка3</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКолонка3РасширеннаяПодсказка" id="21"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаСверки" id="15">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сверки между 8 и 7</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сверки</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаСверкиРасширеннаяПодсказка" id="16"/>
+							<ChildItems>
+								<LabelDecoration name="ЗагрузкаОстатков" id="3">
+									<Visible>false</Visible>
+									<TextColor>style:FormTextColor</TextColor>
+									<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Загрузка остатков</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="ЗагрузкаОстатковКонтекстноеМеню" id="4"/>
+									<ExtendedTooltip name="ЗагрузкаОстатковРасширеннаяПодсказка" id="5"/>
+									<Events>
+										<Event name="Click">ЗагрузкаОстатковНажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="СверкаОстатков50516062" id="17">
+									<Visible>false</Visible>
+									<TextColor>style:FormTextColor</TextColor>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отчет: Сверка остатков 50, 51, 60, 62</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="СверкаОстатков50516062КонтекстноеМеню" id="18"/>
+									<ExtendedTooltip name="СверкаОстатков50516062РасширеннаяПодсказка" id="19"/>
+									<Events>
+										<Event name="Click">СверкаОстатков50516062Нажатие</Event>
+									</Events>
+								</LabelDecoration>
+								<LabelDecoration name="ОстаткиОброты50516062" id="45">
+									<TextColor>style:FormTextColor</TextColor>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отчет: сверка остатков и оборотов 50, 51, 60, 62</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="ОстаткиОброты50516062КонтекстноеМеню" id="46"/>
+									<ExtendedTooltip name="ОстаткиОброты50516062РасширеннаяПодсказка" id="47"/>
+									<Events>
+										<Event name="Click">ОстаткиОброты50516062Нажатие</Event>
+									</Events>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.МММСервис</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Команда1" id="1"/>
+	</Commands>
+</Form>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Subsystem uuid="74bca950-7998-490a-83d6-fe7060241d19">
+		<Properties>
+			<Name>Сервис</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сервис</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>StdPicture.Parameters</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПомощникОбновленияДополнительныхОтчетовИОбработок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Организации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РасположениеФирм</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.МММСервис</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ТаймаутПодключенияКВебсервису</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОстаткиДС8</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СвязьОрганизаций8ИСчетов7</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОстаткиДС7</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Счета7</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ПутьКБазеМММ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗагрузкаОстатков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.мв_ДокументШаблон</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммОтчетОстаткиСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммОтчетОстаткиКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.СверкаОстатковДенежныхСредств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммОтчетЗатратыСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АктуальностьОрганизаций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Затраты8</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.АвтоматическиЗаписыватьОстаткиПриФОрмированииОтчетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Обороты8</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиИОбороты50516062</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Обороты7</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммОтчетЗатратыСерверПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммЗатратыКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммОтчетОСВСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мммОтчетОборотыОСВ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЗатратыСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ДанныеКВыгрузкеВ7</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыОперацийВыгружаемыхВ7</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЗатратыКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыВыгружаемыхДокументов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ВНД</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВыполняемыйКодВБазах</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УдаленноеВыполнениеКода</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВыполнениеРегламентныхЗаданийНаКлиенте</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>
