@@ -5818,10 +5818,10 @@
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="98d00a2034c7d94ab78e9b8f34ab7b5c00000000"/>
 		<Metadata name="CommonTemplate.ирШаблонРасширения" id="707abe9a-27ff-424f-a8c5-9b204feb7a87" configVersion="d05e828335681e44a67fdf59dcb7ca2900000000"/>
 		<Metadata name="CommonTemplate.ирШаблонРасширения.Template" id="707abe9a-27ff-424f-a8c5-9b204feb7a87.0" configVersion="4113eb5436d5ac49915901564910193a00000000"/>
-		<Metadata name="Configuration.МояКонфигурация" id="e592f552-54cc-43ff-9b3d-6f5d233b79e4" configVersion="1bf7301699065942ac824e71ee8d0cd900000000"/>
+		<Metadata name="Configuration.МояКонфигурация" id="e592f552-54cc-43ff-9b3d-6f5d233b79e4" configVersion="b03417b4fdca20449cfbce186c403ede00000000"/>
 		<Metadata name="Configuration.МояКонфигурация.ClientApplicationInterface" id="0c9a493b-174a-469b-a57e-f3e92e576c5a.b" configVersion="4d37aeccb71ba84695fe69575951e36e00000000"/>
 		<Metadata name="Configuration.МояКонфигурация.ExternalConnectionModule" id="0c9a493b-174a-469b-a57e-f3e92e576c5a.5" configVersion="2ce08fc6ece6344a98d96f5f1ddcf8aa00000000"/>
-		<Metadata name="Configuration.МояКонфигурация.HomePageWorkArea" id="0c9a493b-174a-469b-a57e-f3e92e576c5a.8" configVersion="f2f4d747bddf774ea2166f9f79b48f5d00000000"/>
+		<Metadata name="Configuration.МояКонфигурация.HomePageWorkArea" id="0c9a493b-174a-469b-a57e-f3e92e576c5a.8" configVersion="5c714314541145469d31222005d593ac00000000"/>
 		<Metadata name="Configuration.МояКонфигурация.MainSectionCommandInterface" id="0c9a493b-174a-469b-a57e-f3e92e576c5a.9" configVersion="32015840d602de4d8e440a6af461ee5d00000000"/>
 		<Metadata name="Configuration.МояКонфигурация.MainSectionPicture" id="0c9a493b-174a-469b-a57e-f3e92e576c5a.c" configVersion="e93bc6d1068f0a43853bf709d44d7a4700000000"/>
 		<Metadata name="Configuration.МояКонфигурация.ManagedApplicationModule" id="0c9a493b-174a-469b-a57e-f3e92e576c5a.6" configVersion="44f78acc06a3eb44b6688784f7e84f5300000000"/>
