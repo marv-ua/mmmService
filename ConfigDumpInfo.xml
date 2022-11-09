@@ -2668,8 +2668,8 @@
 		<Metadata name="CommonModule.ЗарплатаКадрыКлиентСервер.Module" id="80d54e10-35f1-4917-b028-a475754d5907.0" configVersion="9a67c63edf36e941bb3a4580625fd46300000000"/>
 		<Metadata name="CommonModule.ЗатратыКлиентСервер" id="06abf3ca-1926-4e67-bd4b-8c64dd33477e" configVersion="c20a8c21c0d7bd45b40df48a15bdfcee00000000"/>
 		<Metadata name="CommonModule.ЗатратыКлиентСервер.Module" id="06abf3ca-1926-4e67-bd4b-8c64dd33477e.0" configVersion="0be844f63e1fb3469d58c009434f63fb00000000"/>
-		<Metadata name="CommonModule.ЗатратыСервер" id="319c3f5f-3f06-41d7-99b3-f30a0d50964d" configVersion="35e59552ed558b4193848b9a569778db00000000"/>
-		<Metadata name="CommonModule.ЗатратыСервер.Module" id="319c3f5f-3f06-41d7-99b3-f30a0d50964d.0" configVersion="65493a10c4f7ae49b032113db1b891ab00000000"/>
+		<Metadata name="CommonModule.ЗатратыСервер" id="319c3f5f-3f06-41d7-99b3-f30a0d50964d" configVersion="db04c1ce5163c04ab043e69bed7eeaf700000000"/>
+		<Metadata name="CommonModule.ЗатратыСервер.Module" id="319c3f5f-3f06-41d7-99b3-f30a0d50964d.0" configVersion="4a02e447757b344883499d77296a80d000000000"/>
 		<Metadata name="CommonModule.ИнтеграцияПодсистемБСП" id="f135b60e-6d28-4ba1-acd7-76090f14855d" configVersion="b3b8df0838013443ba1f2f62c9ff46f700000000"/>
 		<Metadata name="CommonModule.ИнтеграцияПодсистемБСП.Module" id="f135b60e-6d28-4ba1-acd7-76090f14855d.0" configVersion="14cf9068b381714bb90813d7b7a85c0900000000"/>
 		<Metadata name="CommonModule.ИнтеграцияПодсистемБСПКлиент" id="5b105084-c4ba-4ff6-9196-8b3e3a9991e2" configVersion="631dddedfe4e0d48a984e8a0b21d262500000000"/>
@@ -3354,8 +3354,8 @@
 		<Metadata name="CommonModule.мммКлиент.Module" id="f325d03f-16d6-435f-8a77-a8d1b96bf7fd.0" configVersion="dbadfa333a107649914ef06b9a99b2ec00000000"/>
 		<Metadata name="CommonModule.мммКлиентСервер" id="3b62529c-652b-4356-9c82-d3b1c9cae695" configVersion="05e19d3e90600a4f82729f68c8383f6500000000"/>
 		<Metadata name="CommonModule.мммКлиентСервер.Module" id="3b62529c-652b-4356-9c82-d3b1c9cae695.0" configVersion="3092750f741c5446ab06dffdfdb78ae300000000"/>
-		<Metadata name="CommonModule.мммОтчетЗатратыСервер" id="ef3d630a-1e0e-4a78-ad00-ad2a0c1ff104" configVersion="af3fc0352c635a428e0d31c1c4477c0f00000000"/>
-		<Metadata name="CommonModule.мммОтчетЗатратыСервер.Module" id="ef3d630a-1e0e-4a78-ad00-ad2a0c1ff104.0" configVersion="706ac0e0d0a9664596db81105b2003ed00000000"/>
+		<Metadata name="CommonModule.мммОтчетЗатратыСервер" id="ef3d630a-1e0e-4a78-ad00-ad2a0c1ff104" configVersion="c1f39bff8e16734282b754e4a1eaee6500000000"/>
+		<Metadata name="CommonModule.мммОтчетЗатратыСервер.Module" id="ef3d630a-1e0e-4a78-ad00-ad2a0c1ff104.0" configVersion="fb94df831965cb47bc1a8402defb41fa00000000"/>
 		<Metadata name="CommonModule.мммОтчетЗатратыСерверПереопределяемый" id="0f88145d-2ef6-4604-952e-7e0e28226346" configVersion="0a2bd57af702cc4dacedc5587bdf904800000000"/>
 		<Metadata name="CommonModule.мммОтчетЗатратыСерверПереопределяемый.Module" id="0f88145d-2ef6-4604-952e-7e0e28226346.0" configVersion="8983d8e8c6be684da3caa23be265056500000000"/>
 		<Metadata name="CommonModule.мммОтчетОСВСервер" id="d04156e1-aef0-42d0-b1a3-e6359eedbf2b" configVersion="72925ad2923f4a48b5defb1ccae3fbe900000000"/>
