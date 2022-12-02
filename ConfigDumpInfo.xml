@@ -2668,8 +2668,8 @@
 		<Metadata name="CommonModule.ЗарплатаКадрыКлиентСервер.Module" id="80d54e10-35f1-4917-b028-a475754d5907.0" configVersion="9a67c63edf36e941bb3a4580625fd46300000000"/>
 		<Metadata name="CommonModule.ЗатратыКлиентСервер" id="06abf3ca-1926-4e67-bd4b-8c64dd33477e" configVersion="c20a8c21c0d7bd45b40df48a15bdfcee00000000"/>
 		<Metadata name="CommonModule.ЗатратыКлиентСервер.Module" id="06abf3ca-1926-4e67-bd4b-8c64dd33477e.0" configVersion="0be844f63e1fb3469d58c009434f63fb00000000"/>
-		<Metadata name="CommonModule.ЗатратыСервер" id="319c3f5f-3f06-41d7-99b3-f30a0d50964d" configVersion="db04c1ce5163c04ab043e69bed7eeaf700000000"/>
-		<Metadata name="CommonModule.ЗатратыСервер.Module" id="319c3f5f-3f06-41d7-99b3-f30a0d50964d.0" configVersion="4a02e447757b344883499d77296a80d000000000"/>
+		<Metadata name="CommonModule.ЗатратыСервер" id="319c3f5f-3f06-41d7-99b3-f30a0d50964d" configVersion="2093f9a35fa6db4f88d4bda271beecb000000000"/>
+		<Metadata name="CommonModule.ЗатратыСервер.Module" id="319c3f5f-3f06-41d7-99b3-f30a0d50964d.0" configVersion="61dce20c03a0e947bc1d65a5bf958da500000000"/>
 		<Metadata name="CommonModule.ИнтеграцияПодсистемБСП" id="f135b60e-6d28-4ba1-acd7-76090f14855d" configVersion="b3b8df0838013443ba1f2f62c9ff46f700000000"/>
 		<Metadata name="CommonModule.ИнтеграцияПодсистемБСП.Module" id="f135b60e-6d28-4ba1-acd7-76090f14855d.0" configVersion="14cf9068b381714bb90813d7b7a85c0900000000"/>
 		<Metadata name="CommonModule.ИнтеграцияПодсистемБСПКлиент" id="5b105084-c4ba-4ff6-9196-8b3e3a9991e2" configVersion="631dddedfe4e0d48a984e8a0b21d262500000000"/>
