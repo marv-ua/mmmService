@@ -9791,11 +9791,11 @@
 		<Metadata name="Report.ОстаткиИОбороты50516062" id="28a78cd0-337a-4efa-b326-7d0666a3dbfb" configVersion="3b29d7db11c5ab47b4758855977a848000000000">
 			<Metadata name="Report.ОстаткиИОбороты50516062.Attribute.ПериодРегистрации" id="fd4e12b5-1c8b-4c82-a6e5-6546cc3f54cf"/>
 		</Metadata>
-		<Metadata name="Report.ОстаткиИОбороты50516062.Form.ФормаОтчета" id="93b13bb2-ab9e-4a5b-a1eb-42c92da4464f" configVersion="1552f0f7969ede4e9de60cc22b5224c600000000"/>
-		<Metadata name="Report.ОстаткиИОбороты50516062.Form.ФормаОтчета.Form" id="93b13bb2-ab9e-4a5b-a1eb-42c92da4464f.0" configVersion="b6b128483f6cd849a6d286dd583f804b00000000"/>
+		<Metadata name="Report.ОстаткиИОбороты50516062.Form.ФормаОтчета" id="93b13bb2-ab9e-4a5b-a1eb-42c92da4464f" configVersion="ddc760549cb6a24894993e0b9ce92ac700000000"/>
+		<Metadata name="Report.ОстаткиИОбороты50516062.Form.ФормаОтчета.Form" id="93b13bb2-ab9e-4a5b-a1eb-42c92da4464f.0" configVersion="cca039cee0f2884d8775a1c507454faa00000000"/>
 		<Metadata name="Report.ОстаткиИОбороты50516062.ObjectModule" id="28a78cd0-337a-4efa-b326-7d0666a3dbfb.0" configVersion="eb2ac3a6913c954084e9997798ee69a500000000"/>
-		<Metadata name="Report.ОстаткиИОбороты50516062.Template.Макет" id="8ea917cb-c771-4c7c-b2b8-17a8883f77dc" configVersion="f9a24594ca36c549b10257df26ce225500000000"/>
-		<Metadata name="Report.ОстаткиИОбороты50516062.Template.Макет.Template" id="8ea917cb-c771-4c7c-b2b8-17a8883f77dc.0" configVersion="0fbad4a5542f784c8a7f0b4dfc797b0c00000000"/>
+		<Metadata name="Report.ОстаткиИОбороты50516062.Template.Макет" id="8ea917cb-c771-4c7c-b2b8-17a8883f77dc" configVersion="8f1ffb364034b9469dc360ba7b421c8e00000000"/>
+		<Metadata name="Report.ОстаткиИОбороты50516062.Template.Макет.Template" id="8ea917cb-c771-4c7c-b2b8-17a8883f77dc.0" configVersion="df3fab2e10a0aa4c9a32b3b79d735c8e00000000"/>
 		<Metadata name="Report.ОценкаПроизводительности" id="269ada84-71a9-4b4b-9604-caa40c5b7067" configVersion="31f1035fd65b244fbecf179ef79ff15400000000"/>
 		<Metadata name="Report.ОценкаПроизводительности.Help" id="269ada84-71a9-4b4b-9604-caa40c5b7067.1" configVersion="a492f2a8700cc74e851cfb90528df91700000000"/>
 		<Metadata name="Report.ОценкаПроизводительности.ManagerModule" id="269ada84-71a9-4b4b-9604-caa40c5b7067.2" configVersion="b0a0fde353006342a31f22453ac421bb00000000"/>

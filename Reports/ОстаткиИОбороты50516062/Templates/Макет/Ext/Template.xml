@@ -153,6 +153,10 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация8</dataPath>
+			<field>Организация8</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	Организации.Ссылка КАК Организация,
@@ -160,7 +164,7 @@
 ПОМЕСТИТЬ ВТОрганизации
 ИЗ
 	Справочник.Организации КАК Организации
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СвязьОрганизаций8ИСчетов7 КАК СвязьОрганизаций8ИСчетов7
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СвязьОрганизаций8ИСчетов7.СрезПоследних(&amp;Период) КАК СвязьОрганизаций8ИСчетов7
 		ПО Организации.Ссылка = СвязьОрганизаций8ИСчетов7.Организация8
 ;
 
@@ -171,7 +175,7 @@
 ПОМЕСТИТЬ ВТСчета7
 ИЗ
 	Справочник.Счета7 КАК Счета7
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СвязьОрганизаций8ИСчетов7 КАК СвязьОрганизаций8ИСчетов7
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СвязьОрганизаций8ИСчетов7.СрезПоследних(&amp;Период) КАК СвязьОрганизаций8ИСчетов7
 		ПО Счета7.Ссылка = СвязьОрганизаций8ИСчетов7.Счет7
 ;
 
@@ -204,7 +208,7 @@
 ГДЕ
 	ЕСТЬNULL(АктуальностьОрганизацийСрезПоследних.Активна, ЛОЖЬ) = ИСТИНА
 {ГДЕ
-	(ВТОрганизации.Организация В (&amp;Организации))}
+	(ВТОрганизации.Организация В ИЕРАРХИИ (&amp;Организации))}
 
 ОБЪЕДИНИТЬ ВСЕ
 
@@ -236,7 +240,7 @@
 ГДЕ
 	ЕСТЬNULL(АктуальностьОрганизацийСрезПоследних.Активна, ЛОЖЬ) = ИСТИНА
 {ГДЕ
-	(ВТСчета7.Организация В (&amp;Организации))}</query>
+	(ВТСчета7.Организация В ИЕРАРХИИ (&amp;Организации))}</query>
 	</dataSet>
 	<dataSetLink>
 		<sourceDataSet/>
@@ -390,7 +394,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
-		<value xsi:type="xs:dateTime">2022-05-01T00:00:00</value>
+		<value xsi:type="xs:dateTime">2022-03-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
 		<denyIncompleteValues>true</denyIncompleteValues>
 		<use>Always</use>
@@ -406,7 +410,6 @@
 		<valueType>
 			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
 		</valueType>
-		<value xsi:type="dcscor:DesignTimeValue">Справочник.Организации.ПустаяСсылка</value>
 		<useRestriction>false</useRestriction>
 		<valueListAllowed>true</valueListAllowed>
 	</parameter>
@@ -586,7 +589,8 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Организации</dcscor:parameter>
-					<dcscor:value xsi:type="xs:string">58f52802-c64b-11ec-8145-00155dddc305</dcscor:value>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>a0aa94fa-53da-4207-b862-5469303ac447</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:order>
