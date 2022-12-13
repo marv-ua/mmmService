@@ -2597,6 +2597,7 @@
 			<Catalog>Организации</Catalog>
 			<Catalog>Счета7</Catalog>
 			<Catalog>ВидыОперацийВыгружаемыхВ7</Catalog>
+			<Catalog>ОтветственныеБухгалтеры</Catalog>
 			<Document>Анкета</Document>
 			<Document>Встреча</Document>
 			<Document>ЗапланированноеВзаимодействие</Document>

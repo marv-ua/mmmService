@@ -6,11 +6,6 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатратыНовый">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
 		<Command name="Report.ВНД.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -22,6 +17,11 @@
 			</Visibility>
 		</Command>
 		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатраты">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатратыНовый">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
@@ -37,10 +37,6 @@
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
-		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатратыНовый">
-			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
-			<Placement>Manual</Placement>
-		</Command>
 		<Command name="Report.ВНД.StandardCommand.Open">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 			<Placement>Manual</Placement>
@@ -50,6 +46,10 @@
 			<Placement>Manual</Placement>
 		</Command>
 		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатраты">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+			<Placement>Manual</Placement>
+		</Command>
+		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатратыНовый">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 			<Placement>Manual</Placement>
 		</Command>
@@ -62,9 +62,6 @@
 		<Command name="Catalog.Организации.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатратыНовый">
-			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
-		</Command>
 		<Command name="Report.ВНД.StandardCommand.Open">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
@@ -72,6 +69,9 @@
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатраты">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.МММСервис.Command.ОтчетЗатратыНовый">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
 		<Command name="DataProcessor.МММСервис.Command.ВыгрузкаОборотов50516062ВМММ">
