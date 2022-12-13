@@ -131,6 +131,11 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаПравоРасширеннаяПодсказка" id="51"/>
 			<ChildItems>
+				<InputField name="Бухгалтер" id="74">
+					<DataPath>Объект.Бухгалтер</DataPath>
+					<ContextMenu name="БухгалтерКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="БухгалтерРасширеннаяПодсказка" id="76"/>
+				</InputField>
 				<CheckBoxField name="Актуальна" id="68">
 					<DataPath>Актуальна</DataPath>
 					<TitleLocation>Right</TitleLocation>

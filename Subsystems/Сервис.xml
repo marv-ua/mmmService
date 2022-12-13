@@ -56,6 +56,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВыполняемыйКодВБазах</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УдаленноеВыполнениеКода</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВыполнениеРегламентныхЗаданийНаКлиенте</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">595c239c-aace-47c4-92d3-b3cd980ca3fb</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОтветственныеБухгалтеры</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

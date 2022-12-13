@@ -5,8 +5,16 @@
 			<Name>ОтчетЗатратыНовый</Name>
 			<Synonym>
 				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Отчет затраты</v8:content>
+				</v8:item>
+				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Отчет затраты новый</v8:content>
+					<v8:content>Отчет затраты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Отчет затраты</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
