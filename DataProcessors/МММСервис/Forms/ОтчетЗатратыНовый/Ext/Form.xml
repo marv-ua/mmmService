@@ -198,6 +198,11 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
+						<LabelDecoration name="Декорация1" id="224">
+							<Width>10</Width>
+							<ContextMenu name="Декорация1КонтекстноеМеню" id="225"/>
+							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="226"/>
+						</LabelDecoration>
 					</ChildItems>
 				</UsualGroup>
 				<Pages name="ГруппаСтраницы" id="83">
