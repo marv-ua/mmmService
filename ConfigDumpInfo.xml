@@ -9718,8 +9718,8 @@
 		<Metadata name="Report.БизнесПроцессы.ObjectModule" id="c5f91669-13d8-4f0a-a054-2701078da38a.0" configVersion="4790eae787e8cb4a982c6473eadd257c00000000"/>
 		<Metadata name="Report.БизнесПроцессы.Template.Макет" id="34f9872b-e02e-4093-ba06-3cb5b8995850" configVersion="2cf24e41cec93b49ba4616d5d4aff1ac00000000"/>
 		<Metadata name="Report.БизнесПроцессы.Template.Макет.Template" id="34f9872b-e02e-4093-ba06-3cb5b8995850.0" configVersion="19fd81b926a8be4b8dc099e8fc70d30200000000"/>
-		<Metadata name="Report.ВНД" id="5fa6c001-2e2d-4079-b61d-5e0a002d5b95" configVersion="2c49f69231e2374a9e61aab760a094f900000000"/>
-		<Metadata name="Report.ВНД.ObjectModule" id="5fa6c001-2e2d-4079-b61d-5e0a002d5b95.0" configVersion="f147385043f80b49ad72b637597d4fe000000000"/>
+		<Metadata name="Report.ВНД" id="5fa6c001-2e2d-4079-b61d-5e0a002d5b95" configVersion="1c86b07dae8ce24ab3704b13767dacde00000000"/>
+		<Metadata name="Report.ВНД.ObjectModule" id="5fa6c001-2e2d-4079-b61d-5e0a002d5b95.0" configVersion="86d57def870e8f4a868fe6b43f9fd6eb00000000"/>
 		<Metadata name="Report.ВНД.Template.ВНД" id="51c2e82a-f2b1-403f-8e21-89a74a4da239" configVersion="218ea66472c6494280f8c3cddf686c2b00000000"/>
 		<Metadata name="Report.ВНД.Template.ВНД.Template" id="51c2e82a-f2b1-403f-8e21-89a74a4da239.0" configVersion="2c5a3864530df84aa83de44d85d9f0b100000000"/>
 		<Metadata name="Report.ВНД.Template.Макет" id="05487c28-d973-4d5f-a672-c300ba1e568b" configVersion="0f94f043b4436a4b90ae98374d8ccdb600000000"/>
