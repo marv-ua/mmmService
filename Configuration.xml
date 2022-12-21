@@ -2931,6 +2931,7 @@
 			<InformationRegister>Обороты7</InformationRegister>
 			<InformationRegister>ДанныеКВыгрузкеВ7</InformationRegister>
 			<InformationRegister>ВыполняемыйКодВБазах</InformationRegister>
+			<InformationRegister>ОрганизацииКассы</InformationRegister>
 			<ChartOfCharacteristicTypes>ВопросыДляАнкетирования</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ОбъектыАдресацииЗадач</ChartOfCharacteristicTypes>

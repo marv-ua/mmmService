@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="9dd72d22-92dd-4479-b81e-a40424010972">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ОрганизацииКассы" category="Record">
+				<xr:TypeId>f1a957a8-f5f1-4232-b5d0-910e5bae7a1a</xr:TypeId>
+				<xr:ValueId>fa36e976-8f0d-4d32-bd48-7ab90c40c8c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ОрганизацииКассы" category="Manager">
+				<xr:TypeId>5cfbbaf5-fd9e-4417-9b61-9fa59d7fd2bd</xr:TypeId>
+				<xr:ValueId>b7108478-b81e-4d28-8176-0d12e521e1c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ОрганизацииКассы" category="Selection">
+				<xr:TypeId>248dcdcd-7e67-4a5f-9311-3a1ae0a014af</xr:TypeId>
+				<xr:ValueId>e9e97dbd-2c15-423e-ad85-1fbd8a9c87ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ОрганизацииКассы" category="List">
+				<xr:TypeId>4b14f774-389d-4dde-893c-8a448a6db946</xr:TypeId>
+				<xr:ValueId>fdb58880-2b29-47d9-b914-514227b5533d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ОрганизацииКассы" category="RecordSet">
+				<xr:TypeId>492dc447-a5e6-40a8-b565-079695c19dc7</xr:TypeId>
+				<xr:ValueId>0dce3f91-a257-448c-bda5-495721fd65f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ОрганизацииКассы" category="RecordKey">
+				<xr:TypeId>637c524c-086d-45fe-8bcf-76aa872b9179</xr:TypeId>
+				<xr:ValueId>98a7150c-5f55-4898-93ea-53bf4ce0f3b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ОрганизацииКассы" category="RecordManager">
+				<xr:TypeId>7939aa1a-f5eb-4443-925e-15987094ad99</xr:TypeId>
+				<xr:ValueId>a8c3a7c5-eb13-454c-8c83-cb543a476aaa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОрганизацииКассы</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организации кассы</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<EditType>InDialog</EditType>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<AuxiliaryRecordForm/>
+			<AuxiliaryListForm/>
+			<InformationRegisterPeriodicity>Month</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<MainFilterOnPeriod>true</MainFilterOnPeriod>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
+			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>
