@@ -5281,7 +5281,7 @@
 		<Metadata name="CommonTemplate.ПолучениеДереваОбработчиковОбновления.Template" id="88b879b7-1bb3-4478-b569-35bdb5c56939.0" configVersion="05a15a7dea57ba4bbfc54baedaea973a00000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности" id="7a62d031-c340-4b1e-90af-fff697a2e979" configVersion="a66ec2b6adbecc4e91ce31543c68f8ad00000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="225a27182f8e9c4f8eb627fb312a611100000000"/>
-		<Metadata name="Configuration.МояКонфигурация" id="e592f552-54cc-43ff-9b3d-6f5d233b79e4" configVersion="6d0f7ea28d90324887a49aacd67703cb00000000"/>
+		<Metadata name="Configuration.МояКонфигурация" id="e592f552-54cc-43ff-9b3d-6f5d233b79e4" configVersion="d0a90e3bfe4a6b46975bcdeaeb89be7a00000000"/>
 		<Metadata name="Configuration.МояКонфигурация.ClientApplicationInterface" id="0c9a493b-174a-469b-a57e-f3e92e576c5a.b" configVersion="6df826c980a96e4f90ca6a582b41c79300000000"/>
 		<Metadata name="Configuration.МояКонфигурация.ExternalConnectionModule" id="0c9a493b-174a-469b-a57e-f3e92e576c5a.5" configVersion="7de20d0714a7a0478499d2054228703600000000"/>
 		<Metadata name="Configuration.МояКонфигурация.HomePageWorkArea" id="0c9a493b-174a-469b-a57e-f3e92e576c5a.8" configVersion="d156957fe0fcd641afc2594d71cca08400000000"/>
@@ -8985,6 +8985,7 @@
 		</Metadata>
 		<Metadata name="InformationRegister.ОповещенияПользователейСертификатов.ManagerModule" id="5ffc2b03-28c0-45da-ab3e-e4c5d449a898.2" configVersion="dddbc22b153570418c5cc2a63ade63b900000000"/>
 		<Metadata name="InformationRegister.ОповещенияПользователейСертификатов.RecordSetModule" id="5ffc2b03-28c0-45da-ab3e-e4c5d449a898.1" configVersion="f34b4fa2961f244590a93af4779ecdc500000000"/>
+		<Metadata name="InformationRegister.ОрганизацииКассы" id="9dd72d22-92dd-4479-b81e-a40424010972" configVersion="9d066fa4a2095d479cfe7aa1d3c0efe500000000"/>
 		<Metadata name="InformationRegister.ОстаткиДС7" id="0586c753-1be1-46a9-a984-ad1ea023b607" configVersion="2e7841f835a4484f8b2c98604d4f5e6a00000000">
 			<Metadata name="InformationRegister.ОстаткиДС7.Dimension.Счет" id="3180f32e-03d2-44f7-a0a8-cd403aa327a1"/>
 			<Metadata name="InformationRegister.ОстаткиДС7.Dimension.Аналитика" id="90155211-a336-44b5-b1bd-73b6306133b3"/>
@@ -10297,7 +10298,7 @@
 		<Metadata name="Subsystem.Обмен" id="f01ef884-11e7-470c-817c-623836e063ef" configVersion="16aa7e2d9e54254abc0155501985caef00000000"/>
 		<Metadata name="Subsystem.Обмен.CommandInterface" id="f01ef884-11e7-470c-817c-623836e063ef.1" configVersion="fc681927428dec42a33866871d7ef0a100000000"/>
 		<Metadata name="Subsystem.ПодключаемыеОтчетыИОбработки" id="7795348b-2f52-47f7-bf00-e11e5e795a43" configVersion="0a3295bb2de30b43b1169e05bf15b5fd00000000"/>
-		<Metadata name="Subsystem.Сервис" id="74bca950-7998-490a-83d6-fe7060241d19" configVersion="60f3005b6d14684c97a5d64f3be490ef00000000"/>
+		<Metadata name="Subsystem.Сервис" id="74bca950-7998-490a-83d6-fe7060241d19" configVersion="4764b221890b86459cf86acd68a7088200000000"/>
 		<Metadata name="Subsystem.Сервис.CommandInterface" id="74bca950-7998-490a-83d6-fe7060241d19.1" configVersion="796fb0906c2b9a49991fb75421334e6800000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы" id="0421b67e-ed26-491d-ab98-ec59002ed4ce" configVersion="4b51f133f16c8e4f93f7b9a5580b62ba00000000"/>
 		<Metadata name="Subsystem.СтандартныеПодсистемы.Subsystem.АнализЖурналаРегистрации" id="7d8acec9-f5a9-411e-921c-446ed0dd3332" configVersion="df234e8f27b99649bbb469f38ef61eee00000000"/>
