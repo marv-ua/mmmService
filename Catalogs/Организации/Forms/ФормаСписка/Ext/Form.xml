@@ -89,13 +89,20 @@
 				</LabelField>
 				<LabelField name="КПП" id="25">
 					<DataPath>Список.КПП</DataPath>
+					<Visible>false</Visible>
 					<ContextMenu name="КППКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="КППРасширеннаяПодсказка" id="27"/>
 				</LabelField>
 				<LabelField name="ОГРН" id="28">
 					<DataPath>Список.ОГРН</DataPath>
+					<Visible>false</Visible>
 					<ContextMenu name="ОГРНКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="ОГРНРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="Бухгалтер" id="34">
+					<DataPath>Список.Бухгалтер</DataPath>
+					<ContextMenu name="БухгалтерКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="БухгалтерРасширеннаяПодсказка" id="36"/>
 				</LabelField>
 				<LabelField name="Счет7" id="31">
 					<DataPath>Список.Счет7</DataPath>
@@ -145,7 +152,8 @@
 		КОГДА СправочникОрганизации.ЭтоГруппа
 			ТОГДА ИСТИНА
 		ИНАЧЕ ЕСТЬNULL(АктуальностьОрганизацийСрезПоследних.Активна, ЛОЖЬ)
-	КОНЕЦ КАК Актуальна
+	КОНЕЦ КАК Актуальна,
+	СправочникОрганизации.Бухгалтер КАК Бухгалтер
 ИЗ
 	Справочник.Организации КАК СправочникОрганизации
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СвязьОрганизаций8ИСчетов7.СрезПоследних(&amp;Период, ) КАК СвязьОрганизаций8ИСчетов7

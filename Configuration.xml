@@ -59,7 +59,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АдминистраторСистемы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ПолныеПрава</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.ирРазработчик</xr:Item>
 			</DefaultRoles>
 			<Vendor>marv-ua</Vendor>
 			<Version>22.05.10.001</Version>
@@ -230,7 +229,6 @@
 			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
-			<Subsystem>ИнструментыРазработчикаTormozit</Subsystem>
 			<StyleItem>ВажнаяНадписьШрифт</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряВоскресеньеЦвет</StyleItem>
 			<StyleItem>ВидДняПроизводственногоКалендаряНеУказанЦвет</StyleItem>
@@ -306,7 +304,6 @@
 			<StyleItem>ЦветФонаПредупреждения</StyleItem>
 			<StyleItem>ФонПомеченнойКнопкиЦвет</StyleItem>
 			<StyleItem>БыстрыеОтборыФонГруппы</StyleItem>
-			<Style>ирОсновной</Style>
 			<CommonPicture>BotFather</CommonPicture>
 			<CommonPicture>BotFatherВконтакте</CommonPicture>
 			<CommonPicture>GoogleMaps</CommonPicture>
@@ -784,232 +781,6 @@
 			<CommonPicture>КоллекцияВидыАктивныхПользователей</CommonPicture>
 			<CommonPicture>ЯндексКарты</CommonPicture>
 			<CommonPicture>КоллекцияВидыСобытийЖурналаРегистрации</CommonPicture>
-			<CommonPicture>ирADO</CommonPicture>
-			<CommonPicture>ирCOM</CommonPicture>
-			<CommonPicture>ирCOMАдмин</CommonPicture>
-			<CommonPicture>ирExcel</CommonPicture>
-			<CommonPicture>ирHtml</CommonPicture>
-			<CommonPicture>ирHttp</CommonPicture>
-			<CommonPicture>ирJSON</CommonPicture>
-			<CommonPicture>ирRegex101</CommonPicture>
-			<CommonPicture>ирRegexBuddy</CommonPicture>
-			<CommonPicture>ирWMI</CommonPicture>
-			<CommonPicture>ирXML</CommonPicture>
-			<CommonPicture>ирАвтоКонтекстнаяПомощь</CommonPicture>
-			<CommonPicture>ирАлгоритм</CommonPicture>
-			<CommonPicture>ирАноним</CommonPicture>
-			<CommonPicture>ирБитаяСсылка</CommonPicture>
-			<CommonPicture>ирБлокировка</CommonPicture>
-			<CommonPicture>ирБулево</CommonPicture>
-			<CommonPicture>ирВидео</CommonPicture>
-			<CommonPicture>ирВидыИзмененийДанных</CommonPicture>
-			<CommonPicture>ирВиртуальнаяТаблица</CommonPicture>
-			<CommonPicture>ирВключено</CommonPicture>
-			<CommonPicture>ирВлево</CommonPicture>
-			<CommonPicture>ирВложенныйЗапрос</CommonPicture>
-			<CommonPicture>ирВолшебство1</CommonPicture>
-			<CommonPicture>ирВопрос</CommonPicture>
-			<CommonPicture>ирВправо</CommonPicture>
-			<CommonPicture>ирВременнаяТаблица</CommonPicture>
-			<CommonPicture>ирВставить</CommonPicture>
-			<CommonPicture>ирВходящий</CommonPicture>
-			<CommonPicture>ирВыгрузкаЗагрузка</CommonPicture>
-			<CommonPicture>ирВыключено</CommonPicture>
-			<CommonPicture>ирВыполнить</CommonPicture>
-			<CommonPicture>ирВыполнить2</CommonPicture>
-			<CommonPicture>ирВыполнитьНаСервере</CommonPicture>
-			<CommonPicture>ирВыражение</CommonPicture>
-			<CommonPicture>ирВыражение2</CommonPicture>
-			<CommonPicture>ирВырезать</CommonPicture>
-			<CommonPicture>ирВыходящий</CommonPicture>
-			<CommonPicture>ирГенератор</CommonPicture>
-			<CommonPicture>ирГруппаФормы</CommonPicture>
-			<CommonPicture>ирДата</CommonPicture>
-			<CommonPicture>ирДвоичныеДанные</CommonPicture>
-			<CommonPicture>ирДекорацияФормы</CommonPicture>
-			<CommonPicture>ирДеревоЗначений</CommonPicture>
-			<CommonPicture>ирДеревоМетаданных</CommonPicture>
-			<CommonPicture>ирДеревоФормы</CommonPicture>
-			<CommonPicture>ирДобавитьАлгоритм</CommonPicture>
-			<CommonPicture>ирДобавитьВИзбранное</CommonPicture>
-			<CommonPicture>ирДобавитьПапку</CommonPicture>
-			<CommonPicture>ирДокумент1</CommonPicture>
-			<CommonPicture>ирЖурнал</CommonPicture>
-			<CommonPicture>ирЗагрузитьВариантНастроек</CommonPicture>
-			<CommonPicture>ирЗагрузитьИзФайла</CommonPicture>
-			<CommonPicture>ирЗагрузка</CommonPicture>
-			<CommonPicture>ирЗакомментировать</CommonPicture>
-			<CommonPicture>ирЗаменаВТексте</CommonPicture>
-			<CommonPicture>ирЗаменитьТаблицу</CommonPicture>
-			<CommonPicture>ирЗамер</CommonPicture>
-			<CommonPicture>ирЗаполнить</CommonPicture>
-			<CommonPicture>ирЗаполнитьЗапросом</CommonPicture>
-			<CommonPicture>ирЗапретОжидания</CommonPicture>
-			<CommonPicture>ирЗапрос</CommonPicture>
-			<CommonPicture>ирЗапуститьКлиентскоеПриложение</CommonPicture>
-			<CommonPicture>ирИдентификатор</CommonPicture>
-			<CommonPicture>ирИзбранное</CommonPicture>
-			<CommonPicture>ирИзмененияНаУзле</CommonPicture>
-			<CommonPicture>ирИндексы</CommonPicture>
-			<CommonPicture>ирИндексы2</CommonPicture>
-			<CommonPicture>ирИнтерфейснаяПанель</CommonPicture>
-			<CommonPicture>ирИсключение</CommonPicture>
-			<CommonPicture>ирИсполняемыйЗапрос</CommonPicture>
-			<CommonPicture>ирИсследовать</CommonPicture>
-			<CommonPicture>ирИсторияДанных</CommonPicture>
-			<CommonPicture>ирКнопка</CommonPicture>
-			<CommonPicture>ирКнопкаКоманднойПанели</CommonPicture>
-			<CommonPicture>ирКолонкаТаблицы</CommonPicture>
-			<CommonPicture>ирКолонкаТабличногоПоля</CommonPicture>
-			<CommonPicture>ирКоманднаяПанель</CommonPicture>
-			<CommonPicture>ирКонсольЗапросов</CommonPicture>
-			<CommonPicture>ирКонсольКода</CommonPicture>
-			<CommonPicture>ирКонсольКомпоновокДанных</CommonPicture>
-			<CommonPicture>ирКонсольПостроителейОтчетов</CommonPicture>
-			<CommonPicture>ирКонсольСерверов1С</CommonPicture>
-			<CommonPicture>ирКонстанты</CommonPicture>
-			<CommonPicture>ирКонструкторЗапроса</CommonPicture>
-			<CommonPicture>ирКонфигуратор1С8</CommonPicture>
-			<CommonPicture>ирКопировать</CommonPicture>
-			<CommonPicture>ирКопировать2</CommonPicture>
-			<CommonPicture>ирКотекстныйСинтаксПомощник</CommonPicture>
-			<CommonPicture>ирЛинейка</CommonPicture>
-			<CommonPicture>ирЛоготип16х16</CommonPicture>
-			<CommonPicture>ирЛоготип24х24</CommonPicture>
-			<CommonPicture>ирЛоготип48х48</CommonPicture>
-			<CommonPicture>ирМассив</CommonPicture>
-			<CommonPicture>ирМенеджерТабличногоПоля</CommonPicture>
-			<CommonPicture>ирМетаданные</CommonPicture>
-			<CommonPicture>ирМониторПроизводительности</CommonPicture>
-			<CommonPicture>ирНаборыДанныхСхемыКомпоновки</CommonPicture>
-			<CommonPicture>ирНадпись</CommonPicture>
-			<CommonPicture>ирНайтиВДереве</CommonPicture>
-			<CommonPicture>ирНайтиВСписке</CommonPicture>
-			<CommonPicture>ирНастройкаЖурналаРегистрации</CommonPicture>
-			<CommonPicture>ирНастройкаТехножурнала</CommonPicture>
-			<CommonPicture>ирНастройкиАлгоритмов</CommonPicture>
-			<CommonPicture>ирНастройкиКлиента1С</CommonPicture>
-			<CommonPicture>ирНедоступноеПоле</CommonPicture>
-			<CommonPicture>ирНеКлючевыеСлова</CommonPicture>
-			<CommonPicture>ирНеМетоды</CommonPicture>
-			<CommonPicture>ирНеСвойства</CommonPicture>
-			<CommonPicture>ирНовоеОкно</CommonPicture>
-			<CommonPicture>ирНовыйФайл</CommonPicture>
-			<CommonPicture>ирНумерация</CommonPicture>
-			<CommonPicture>ирОбработкаОбъектов</CommonPicture>
-			<CommonPicture>ирОграничениеДоступа</CommonPicture>
-			<CommonPicture>ирОписаниеТипов</CommonPicture>
-			<CommonPicture>ирОстановить</CommonPicture>
-			<CommonPicture>ирОсторожный</CommonPicture>
-			<CommonPicture>ирОтборБезЗначения</CommonPicture>
-			<CommonPicture>ирОтборПоЗначению</CommonPicture>
-			<CommonPicture>ирОтборПоПодсистеме</CommonPicture>
-			<CommonPicture>ирОткрыть</CommonPicture>
-			<CommonPicture>ирОткрытьИзмененый</CommonPicture>
-			<CommonPicture>ирОткрытьОбъединить</CommonPicture>
-			<CommonPicture>ирОтладка</CommonPicture>
-			<CommonPicture>ирОтладкаВнешнейОбработки</CommonPicture>
-			<CommonPicture>ирОтображатьТаблицыИзменений</CommonPicture>
-			<CommonPicture>ирОтсутствует</CommonPicture>
-			<CommonPicture>ирПаметрСеанса82</CommonPicture>
-			<CommonPicture>ирПанель</CommonPicture>
-			<CommonPicture>ирПапка</CommonPicture>
-			<CommonPicture>ирПараметрыМетода</CommonPicture>
-			<CommonPicture>ирПерезапустить</CommonPicture>
-			<CommonPicture>ирПерейтиКОпределению</CommonPicture>
-			<CommonPicture>ирПереключитьИнтерфейс</CommonPicture>
-			<CommonPicture>ирПерерасчет</CommonPicture>
-			<CommonPicture>ирПовторить</CommonPicture>
-			<CommonPicture>ирПодпискаНаСобытие</CommonPicture>
-			<CommonPicture>ирПодсистема</CommonPicture>
-			<CommonPicture>ирПоискВДереве</CommonPicture>
-			<CommonPicture>ирПоискИЗаменаДублей</CommonPicture>
-			<CommonPicture>ирПоискСсылокНаОбъект</CommonPicture>
-			<CommonPicture>ирПолеHtmlДокумента</CommonPicture>
-			<CommonPicture>ирПолеВвода</CommonPicture>
-			<CommonPicture>ирПолеВыбора</CommonPicture>
-			<CommonPicture>ирПолеГрафическойСхемы</CommonPicture>
-			<CommonPicture>ирПолеТабличногоДокумента</CommonPicture>
-			<CommonPicture>ирПолеТекстовогоДокумента</CommonPicture>
-			<CommonPicture>ирПолеФормы</CommonPicture>
-			<CommonPicture>ирПолнотекстовыйПоискДанных</CommonPicture>
-			<CommonPicture>ирПользователи</CommonPicture>
-			<CommonPicture>ирПользователь</CommonPicture>
-			<CommonPicture>ирПоследниеВыбранные</CommonPicture>
-			<CommonPicture>ирПоследовательность</CommonPicture>
-			<CommonPicture>ирПостроительЗапроса</CommonPicture>
-			<CommonPicture>ирПраваДоступа</CommonPicture>
-			<CommonPicture>ирПредопределенный</CommonPicture>
-			<CommonPicture>ирПредприятие1С8</CommonPicture>
-			<CommonPicture>ирПриходРасход</CommonPicture>
-			<CommonPicture>ирПусто</CommonPicture>
-			<CommonPicture>ирРазвернутьВсе</CommonPicture>
-			<CommonPicture>ирРазделитьНаЧасти</CommonPicture>
-			<CommonPicture>ирРазличия</CommonPicture>
-			<CommonPicture>ирРаскомментировать</CommonPicture>
-			<CommonPicture>ирРедактироватьОбъектБД</CommonPicture>
-			<CommonPicture>ирРедакторСтроковогоЛитерала</CommonPicture>
-			<CommonPicture>ирРеквизит</CommonPicture>
-			<CommonPicture>ирСвернутьВсе</CommonPicture>
-			<CommonPicture>ирСвертка</CommonPicture>
-			<CommonPicture>ирСвязаннаяТаблица</CommonPicture>
-			<CommonPicture>ирСердцебиение</CommonPicture>
-			<CommonPicture>ирСжатьКолонку</CommonPicture>
-			<CommonPicture>ирСинтаксПомощник</CommonPicture>
-			<CommonPicture>ирСистемнаяСлужба</CommonPicture>
-			<CommonPicture>ирСоставнойТип</CommonPicture>
-			<CommonPicture>ирСостоянияОбъекта</CommonPicture>
-			<CommonPicture>ирСостоянияСсылки</CommonPicture>
-			<CommonPicture>ирСохранитьВариантНастроек</CommonPicture>
-			<CommonPicture>ирСохранитьКак</CommonPicture>
-			<CommonPicture>ирСохранитьНастройки</CommonPicture>
-			<CommonPicture>ирСпасение</CommonPicture>
-			<CommonPicture>ирСписокЗначений</CommonPicture>
-			<CommonPicture>ирСписокСПометками</CommonPicture>
-			<CommonPicture>ирСправкаМетаданного</CommonPicture>
-			<CommonPicture>ирСравнениеОбъектов</CommonPicture>
-			<CommonPicture>ирСравнить</CommonPicture>
-			<CommonPicture>ирСсылка</CommonPicture>
-			<CommonPicture>ирСтатистикаСУБД</CommonPicture>
-			<CommonPicture>ирСтраницаПанели</CommonPicture>
-			<CommonPicture>ирСтрока</CommonPicture>
-			<CommonPicture>ирСтрокаТаблицы</CommonPicture>
-			<CommonPicture>ирСуммаРежим</CommonPicture>
-			<CommonPicture>ирСуммаСообщить</CommonPicture>
-			<CommonPicture>ирСхемаКомпоновкиДанных</CommonPicture>
-			<CommonPicture>ирТаблицаБД</CommonPicture>
-			<CommonPicture>ирТаблицаЗначений</CommonPicture>
-			<CommonPicture>ирТаблицаИзменений</CommonPicture>
-			<CommonPicture>ирТаблицыЗапроса</CommonPicture>
-			<CommonPicture>ирТабличнаяЧасть</CommonPicture>
-			<CommonPicture>ирТабличноеПоле</CommonPicture>
-			<CommonPicture>ирТабличныйДокумент</CommonPicture>
-			<CommonPicture>ирТестирование</CommonPicture>
-			<CommonPicture>ирТехноЖурнал</CommonPicture>
-			<CommonPicture>ирТип</CommonPicture>
-			<CommonPicture>ирТипыДоступныхПолейКомпоновки</CommonPicture>
-			<CommonPicture>ирТипыСловПодсказки</CommonPicture>
-			<CommonPicture>ирТонкийКлиент</CommonPicture>
-			<CommonPicture>ирУдалениеТипов</CommonPicture>
-			<CommonPicture>ирУдалитьСКонтролемСсылок</CommonPicture>
-			<CommonPicture>ирУдалитьТаблицы</CommonPicture>
-			<CommonPicture>ирУникальныеЗначения</CommonPicture>
-			<CommonPicture>ирУникальныйИдентификатор</CommonPicture>
-			<CommonPicture>ирУровниЖурналаРегистрации</CommonPicture>
-			<CommonPicture>ирУстановитьЗначениеВКолонке</CommonPicture>
-			<CommonPicture>ирУстановитьФокус</CommonPicture>
-			<CommonPicture>ирФлажок</CommonPicture>
-			<CommonPicture>ирФлажокТолькоПросмотр</CommonPicture>
-			<CommonPicture>ирФорма</CommonPicture>
-			<CommonPicture>ирФорматировать</CommonPicture>
-			<CommonPicture>ирФункцииРежимаОтладки</CommonPicture>
-			<CommonPicture>ирФункциональнаяОпция</CommonPicture>
-			<CommonPicture>ирХранилищеЗначения</CommonPicture>
-			<CommonPicture>ирЦиклическиеСсылки</CommonPicture>
-			<CommonPicture>ирЧастое</CommonPicture>
-			<CommonPicture>ирЧасы</CommonPicture>
-			<CommonPicture>ирЧисло</CommonPicture>
-			<CommonPicture>ирКластеризация</CommonPicture>
 			<CommonPicture>КоллекцияДляПомеченныхНаУдалениеОбъектов</CommonPicture>
 			<CommonPicture>КоллекцияЗадачБухгалтера</CommonPicture>
 			<CommonPicture>КоллекцияКартинокСопоставлениеОбъектов</CommonPicture>
@@ -1663,10 +1434,6 @@
 			<Role>ЧтениеУчетныхЗаписейЭлектроннойПочты</Role>
 			<Role>ЧтениеШаблоновСообщений</Role>
 			<Role>ШифрованиеИРасшифровкаДанных</Role>
-			<Role>ирОтладкаПользователя</Role>
-			<Role>ирПользователь</Role>
-			<Role>ирПравоАдминистрирование</Role>
-			<Role>ирРазработчик</Role>
 			<Role>БанкИКассаЧтениеЗапись</Role>
 			<CommonTemplate>ДанныеПечатиОбщиеРеквизиты</CommonTemplate>
 			<CommonTemplate>ДанныеПечатиРегистрСимволов</CommonTemplate>
@@ -1679,7 +1446,6 @@
 			<CommonTemplate>КомпонентаПоискаСтрок</CommonTemplate>
 			<CommonTemplate>ПолучениеДереваОбработчиковОбновления</CommonTemplate>
 			<CommonTemplate>СтруктураПодчиненности</CommonTemplate>
-			<CommonTemplate>ирШаблонРасширения</CommonTemplate>
 			<FilterCriterion>СвязанныеДокументы</FilterCriterion>
 			<FilterCriterion>ФайлыВТоме</FilterCriterion>
 			<CommonModule>GoogleПереводчик</CommonModule>
@@ -2116,14 +1882,6 @@
 			<CommonModule>ЭлектроннаяПодписьСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ЭлектроннаяПодписьСлужебныйПовтИсп</CommonModule>
 			<CommonModule>ЯндексПереводчик</CommonModule>
-			<CommonModule>ирГлобальный</CommonModule>
-			<CommonModule>ирДополнительныеОтчетыИОбработкиБСП</CommonModule>
-			<CommonModule>ирИнтерфейсДляВстраивания</CommonModule>
-			<CommonModule>ирКэш</CommonModule>
-			<CommonModule>ирОбщий</CommonModule>
-			<CommonModule>ирПортативный</CommonModule>
-			<CommonModule>ирПривилегированный</CommonModule>
-			<CommonModule>ирСервер</CommonModule>
 			<CommonModule>ЕК_ОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>ЕК_ОбщегоНазначенияВызовСервера</CommonModule>
 			<CommonModule>Локализация</CommonModule>
@@ -2521,10 +2279,6 @@
 			<CommonCommand>УстановитьРасширениеДляРаботыС1СПредприятием</CommonCommand>
 			<CommonCommand>ФайлыВТоме</CommonCommand>
 			<CommonCommand>УдалитьНастройкуСинхронизации</CommonCommand>
-			<CommonCommand>ирОбработатьОбъекты</CommonCommand>
-			<CommonCommand>ирОбъединитьСсылки</CommonCommand>
-			<CommonCommand>ирРедактироватьИзмененияНаУзле</CommonCommand>
-			<CommonCommand>ирРедактироватьОбъект</CommonCommand>
 			<CommonCommand>ЗапуститьБазуМММ</CommonCommand>
 			<CommandGroup>Взаимодействия</CommandGroup>
 			<CommandGroup>Информация</CommandGroup>
@@ -2532,10 +2286,6 @@
 			<CommandGroup>ПараметрыСинхронизацииДанных</CommandGroup>
 			<CommandGroup>Печать</CommandGroup>
 			<CommandGroup>СинхронизацияДанных</CommandGroup>
-			<CommandGroup>ирКоманднаяПанельФормы</CommandGroup>
-			<CommandGroup>ирНастройки</CommandGroup>
-			<CommandGroup>ирРазработка</CommandGroup>
-			<CommandGroup>ирАдминистрирование</CommandGroup>
 			<Constant>АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</Constant>
 			<Constant>АдресаСерверовМетокВремени</Constant>
 			<Constant>АдресДляВосстановленияПароляУчетнойЗаписи</Constant>
@@ -2774,12 +2524,6 @@
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>ФормаПоиска</CommonForm>
 			<CommonForm>ЭлектроннаяПодпись</CommonForm>
-			<CommonForm>ирАдаптацияРасширения</CommonForm>
-			<CommonForm>ирВыпускВариантаПортативный</CommonForm>
-			<CommonForm>ирВыпускВариантаРасширение</CommonForm>
-			<CommonForm>ирОбновлениеОписанияПлатформы</CommonForm>
-			<CommonForm>ирОтладкаВнешнихОбработокБСП</CommonForm>
-			<CommonForm>ирФормаОтчетаРасширение</CommonForm>
 			<CommonForm>ВыборПериода</CommonForm>
 			<CommonForm>ВыборСтандартногоПериода</CommonForm>
 			<CommonForm>ВыборСтандартногоПериодаДень</CommonForm>
@@ -2850,12 +2594,10 @@
 			<Catalog>ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЯзыкиПечатныхФорм</Catalog>
-			<Catalog>ирАлгоритмы</Catalog>
-			<Catalog>ирКомандаРедактироватьОбъект</Catalog>
-			<Catalog>ирОбъектыДляОтладки</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Счета7</Catalog>
 			<Catalog>ВидыОперацийВыгружаемыхВ7</Catalog>
+			<Catalog>ОтветственныеБухгалтеры</Catalog>
 			<Document>Анкета</Document>
 			<Document>Встреча</Document>
 			<Document>ЗапланированноеВзаимодействие</Document>
@@ -2974,12 +2716,6 @@
 			<Report>РезультатыПроверкиУчета</Report>
 			<Report>СведенияОПользователях</Report>
 			<Report>УниверсальныйОтчет</Report>
-			<Report>ирАнализЗамераПроизводительности</Report>
-			<Report>ирАнализМетаданных</Report>
-			<Report>ирАнализПравДоступа</Report>
-			<Report>ирОтсутствующиеИндексыСУБД</Report>
-			<Report>ирПодпискиНаСобытия</Report>
-			<Report>ирСтатистикаПоЗапросамСУБД</Report>
 			<Report>СверкаОстатковДенежныхСредств</Report>
 			<Report>ОстаткиИОбороты50516062</Report>
 			<Report>ВНД</Report>
@@ -3041,65 +2777,6 @@
 			<DataProcessor>УниверсальныйОбменДаннымиXML</DataProcessor>
 			<DataProcessor>УправлениеИтогамиИАгрегатами</DataProcessor>
 			<DataProcessor>УстановкаОбновлений</DataProcessor>
-			<DataProcessor>ирАнализДанных</DataProcessor>
-			<DataProcessor>ирАнализЖурналаРегистрации</DataProcessor>
-			<DataProcessor>ирАнализТехножурнала</DataProcessor>
-			<DataProcessor>ирВводВыраженияВстроенногоЯзыка</DataProcessor>
-			<DataProcessor>ирВыгрузкаЗагрузкаДанныхЧерезФайл</DataProcessor>
-			<DataProcessor>ирДинамическийСписок</DataProcessor>
-			<DataProcessor>ирЗагрузкаТабличныхДанных</DataProcessor>
-			<DataProcessor>ирИмитаторАлгоритмОбъект</DataProcessor>
-			<DataProcessor>ирИмитаторКонстантаМенеджер</DataProcessor>
-			<DataProcessor>ирИмитаторНаборЗаписей</DataProcessor>
-			<DataProcessor>ирИмитаторСсылочныйОбъект</DataProcessor>
-			<DataProcessor>ирИнтерфейснаяПанель</DataProcessor>
-			<DataProcessor>ирИсследовательОбъектов</DataProcessor>
-			<DataProcessor>ирИсторияДанных</DataProcessor>
-			<DataProcessor>ирКлсПолеТабличногоДокументаСГруппировками</DataProcessor>
-			<DataProcessor>ирКлсПолеТекстаПрограммы</DataProcessor>
-			<DataProcessor>ирКолонкиБД</DataProcessor>
-			<DataProcessor>ирКонсольHTTPЗапросов</DataProcessor>
-			<DataProcessor>ирКонсольЗаданий</DataProcessor>
-			<DataProcessor>ирКонсольЗапросов</DataProcessor>
-			<DataProcessor>ирКонсольКода</DataProcessor>
-			<DataProcessor>ирКонсольКомпоновокДанных</DataProcessor>
-			<DataProcessor>ирКонсольПостроителейОтчетов</DataProcessor>
-			<DataProcessor>ирКонструкторРегулярногоВыражения</DataProcessor>
-			<DataProcessor>ирМенеджерИнтерфейсов</DataProcessor>
-			<DataProcessor>ирНастройкаЖурналаРегистрации</DataProcessor>
-			<DataProcessor>ирНастройкаТехножурнала</DataProcessor>
-			<DataProcessor>ирОболочкаПолеТекста</DataProcessor>
-			<DataProcessor>ирОболочкаРегВхождение</DataProcessor>
-			<DataProcessor>ирОболочкаРегВыражение</DataProcessor>
-			<DataProcessor>ирПлатформа</DataProcessor>
-			<DataProcessor>ирПодборИОбработкаОбъектов</DataProcessor>
-			<DataProcessor>ирПодготовкаКИзменениюСтруктурыБД</DataProcessor>
-			<DataProcessor>ирПоискБитыхСсылок</DataProcessor>
-			<DataProcessor>ирПоискДублейИЗаменаСсылок</DataProcessor>
-			<DataProcessor>ирПолнотекстовыйПоискДанных</DataProcessor>
-			<DataProcessor>ирПортативный</DataProcessor>
-			<DataProcessor>ирПортативныйСервер</DataProcessor>
-			<DataProcessor>ирРазличныеЗначенияКолонки</DataProcessor>
-			<DataProcessor>ирРедакторИзмененийНаУзлах</DataProcessor>
-			<DataProcessor>ирРедакторКонстант</DataProcessor>
-			<DataProcessor>ирРедакторОбъектаБД</DataProcessor>
-			<DataProcessor>ирРедакторОграниченияДоступа</DataProcessor>
-			<DataProcessor>ирРедакторПараметровСеанса</DataProcessor>
-			<DataProcessor>ирРедакторПользователей</DataProcessor>
-			<DataProcessor>ирРедакторПредопределенных</DataProcessor>
-			<DataProcessor>ирРедакторХранилищНастроек</DataProcessor>
-			<DataProcessor>ирСборщикиСчетчиковWindows</DataProcessor>
-			<DataProcessor>ирСинтаксПомощник</DataProcessor>
-			<DataProcessor>ирСлужебный</DataProcessor>
-			<DataProcessor>ирСравнениеТаблиц</DataProcessor>
-			<DataProcessor>ирСтруктураХраненияБД</DataProcessor>
-			<DataProcessor>ирТестированиеМетаданных</DataProcessor>
-			<DataProcessor>ирУдалениеОбъектовСКонтролемСсылок</DataProcessor>
-			<DataProcessor>ирУправлениеCOMКлассами1С</DataProcessor>
-			<DataProcessor>ирУправлениеИтогамиРегистров</DataProcessor>
-			<DataProcessor>ирУправлениеПрофайлами1С</DataProcessor>
-			<DataProcessor>ирУправлениеСлужбамиСервера1С</DataProcessor>
-			<DataProcessor>ирУстановщикРасширения</DataProcessor>
 			<DataProcessor>ЗагрузкаКурсовВалютНБУ</DataProcessor>
 			<DataProcessor>ПомощникОбновленияДополнительныхОтчетовИОбработок</DataProcessor>
 			<DataProcessor>МММСервис</DataProcessor>
@@ -3254,6 +2931,7 @@
 			<InformationRegister>Обороты7</InformationRegister>
 			<InformationRegister>ДанныеКВыгрузкеВ7</InformationRegister>
 			<InformationRegister>ВыполняемыйКодВБазах</InformationRegister>
+			<InformationRegister>ОрганизацииКассы</InformationRegister>
 			<ChartOfCharacteristicTypes>ВопросыДляАнкетирования</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ОбъектыАдресацииЗадач</ChartOfCharacteristicTypes>

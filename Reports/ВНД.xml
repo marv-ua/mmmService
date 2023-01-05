@@ -21,7 +21,7 @@
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm/>
+			<DefaultForm>Report.ВНД.Form.ФормаОтчета</DefaultForm>
 			<AuxiliaryForm/>
 			<MainDataCompositionSchema>Report.ВНД.Template.Макет</MainDataCompositionSchema>
 			<DefaultSettingsForm/>
@@ -34,6 +34,7 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
+			<Form>ФормаОтчета</Form>
 			<Template>Макет</Template>
 			<Template>ВНД</Template>
 		</ChildObjects>

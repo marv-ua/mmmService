@@ -50,6 +50,7 @@
 				</InputField>
 				<InputField name="Организация" id="8">
 					<DataPath>Организация</DataPath>
+					<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
 					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="9"/>
 					<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="10"/>
 					<Events>
@@ -123,6 +124,36 @@
 								</Button>
 							</ChildItems>
 						</CommandBar>
+						<UsualGroup name="Группа4" id="222">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки</v8:content>
+								</v8:item>
+							</Title>
+							<Behavior>PopUp</Behavior>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="223"/>
+							<ChildItems>
+								<CheckBoxField name="ТолькоДанныеВыгрузки" id="216">
+									<DataPath>ТолькоДанныеВыгрузки</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Не формировать отчет</v8:content>
+										</v8:item>
+									</Title>
+									<CheckBoxType>Switcher</CheckBoxType>
+									<ContextMenu name="ТолькоДанныеВыгрузкиКонтекстноеМеню" id="217"/>
+									<ExtendedTooltip name="ТолькоДанныеВыгрузкиРасширеннаяПодсказка" id="218"/>
+								</CheckBoxField>
+								<CheckBoxField name="НеФормироватьДанныеДляВыгрузки" id="219">
+									<DataPath>НеФормироватьДанныеДляВыгрузки</DataPath>
+									<CheckBoxType>Switcher</CheckBoxType>
+									<ContextMenu name="НеФормироватьДанныеДляВыгрузкиКонтекстноеМеню" id="220"/>
+									<ExtendedTooltip name="НеФормироватьДанныеДляВыгрузкиРасширеннаяПодсказка" id="221"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
 						<UsualGroup name="ГруппаАвтоСумма" id="38">
 							<Title>
 								<v8:item>
@@ -167,6 +198,11 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
+						<LabelDecoration name="Декорация1" id="224">
+							<Width>10</Width>
+							<ContextMenu name="Декорация1КонтекстноеМеню" id="225"/>
+							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="226"/>
+						</LabelDecoration>
 					</ChildItems>
 				</UsualGroup>
 				<Pages name="ГруппаСтраницы" id="83">
@@ -729,6 +765,34 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+		</Attribute>
+		<Attribute name="ТолькоДанныеВыгрузки" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Только данные для выгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ТолькоДанныеВыгрузки</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="НеФормироватьДанныеДляВыгрузки" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не формировать данные для выгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>НеФормироватьДанныеДляВыгрузки</Field>
+			</Save>
 		</Attribute>
 	</Attributes>
 	<Commands>
