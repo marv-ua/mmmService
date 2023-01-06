@@ -3283,8 +3283,8 @@
 		<Metadata name="CommonModule.мммОтчетОстаткиКлиент.Module" id="3703d9e5-251d-4505-b28a-e5ea05f5941d.0" configVersion="d62515193513254dbd38d783415aebc000000000"/>
 		<Metadata name="CommonModule.мммОтчетОстаткиСервер" id="06d3f477-f31f-46f8-b847-e85742b714c9" configVersion="3a6667b41a3d914885ad03e267586a1500000000"/>
 		<Metadata name="CommonModule.мммОтчетОстаткиСервер.Module" id="06d3f477-f31f-46f8-b847-e85742b714c9.0" configVersion="a489e2d90dd85f488d100d91322c135c00000000"/>
-		<Metadata name="CommonModule.мммСервер" id="202b58f5-8f34-4341-9327-f62a608eb566" configVersion="062f79ccd5bacb4e8c47b72c1bb860e500000000"/>
-		<Metadata name="CommonModule.мммСервер.Module" id="202b58f5-8f34-4341-9327-f62a608eb566.0" configVersion="9239b1e56d9b864e8c9a77355189d78700000000"/>
+		<Metadata name="CommonModule.мммСервер" id="202b58f5-8f34-4341-9327-f62a608eb566" configVersion="360dfc26b9d60146b6dc8e8c813c808800000000"/>
+		<Metadata name="CommonModule.мммСервер.Module" id="202b58f5-8f34-4341-9327-f62a608eb566.0" configVersion="cc0550f332f72d40a4f7495c4330c77900000000"/>
 		<Metadata name="CommonPicture.BotFather" id="68704139-32bb-4b00-b439-147025d06a35" configVersion="79ded1608776e44fb1d705df27d60e1400000000"/>
 		<Metadata name="CommonPicture.BotFather.Picture" id="68704139-32bb-4b00-b439-147025d06a35.0" configVersion="27547b41a4f23f4082b05ab41517568d00000000"/>
 		<Metadata name="CommonPicture.BotFatherВконтакте" id="df80f175-7f2b-44f8-90d4-118e2e157356" configVersion="8cb8502cdfd2f847a7806d99d643c66700000000"/>
